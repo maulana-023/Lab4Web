@@ -206,7 +206,7 @@ Gambar di atas adalah hasil codingan yang dibawah yang telah ditambahkan Hero Pa
     }
 ```
 
-### 6.Mengatur Layout Main dan Sidebar
+### 7.Mengatur Layout Main dan Sidebar
 Selanjutnya mengatur main content dan sidebar, tambahkan CSS float.
 
 ```css
@@ -225,4 +225,60 @@ Selanjutnya mengatur main content dan sidebar, tambahkan CSS float.
         width: 260px;
         padding: 20px;
         }
+```
+### 8.Membuat Sidebar Widget
+![Menambahkan_Paragraf](pict/ss7.png) 
+Gambar di atas adalah hasil codingan yang dibawah yang telah ditambahkan sidebar widget pada html dan css.
+
+```html
+<aside id="sidebar">
+                <div class="widget-box">
+                    <h3 class="title">Widget Header</h3>
+                    <ul>
+                        <li><a href="#">Widget Link</a></li>
+                        <li><a href="#">Widget Link</a></li>
+                        <li><a href="#">Widget Link</a></li>
+                        <li><a href="#">Widget Link</a></li>
+                        <li><a href="#">Widget Link</a></li>
+                    </ul>
+                </div>
+                <div class="widget-box">
+                    <h3 class="title">Widget Text</h3>
+                    <p>Vestibulum lorem elit, iaculis in nisl volutpat, malesuada tincidunt
+                        arcu. Proin in leo fringilla, vestibulum mi porta, faucibus felis. Integer
+                        pharetra est nunc, nec pretium nunc pretium ac.</p>
+                </div>
+            </aside>
+```
+
+```css
+/* widget */
+.widget-box {
+    border:1px solid #eee;
+    margin-bottom:20px;
+    }
+    .widget-box .title {
+    padding:10px 16px;
+    background-color:#428bca;
+    color:#fff;
+    }
+    .widget-box ul {
+    list-style-type:none;
+    }
+    .widget-box li {
+    border-bottom:1px solid #eee;
+}
+.widget-box li a {
+padding:10px 16px;
+color:#333;
+display:block;
+text-decoration:none;
+}
+.widget-box li:hover a {
+background-color:#eee;
+}
+.widget-box p {
+padding:15px;
+line-height:25px;
+}
 ```
