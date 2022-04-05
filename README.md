@@ -58,3 +58,21 @@ Gambar di atas adalah hasil codingan yang dibawah.
     }
 </style>
 ```
+
+### 2.Membuat Ordered List
+![Menambahkan_Paragraf](pict/ss2.png) 
+Gambar di atas adalah hasil codingan yang dibawah yang telah ditambahkan element tag div dan juga css clear yang kemudian float nya di none.
+
+```html
+<div class="div4">Div 4</div>
+```
+
+```html
+<style>
+.div4{
+           background-color: blue;
+           clear: left;
+           float: none;
+       }
+</style>
+```
