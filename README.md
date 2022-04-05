@@ -157,10 +157,11 @@ url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,30
     }
 ```
 
-### 5.Menambahkan css layout
+### 5.  Membuat Navigasi
 ![Menambahkan_Paragraf](pict/ss5.png) 
 Gambar di atas adalah hasil codingan yang dibawah yang telah ditambahkan Navigasi di CSS.
 
+### Dibawah ini Adalah Codingan Dari Gambar Diatas:
 ```css
 /* navigasi */
 nav {
@@ -178,5 +179,29 @@ nav {
     nav a.active,
     nav a:hover {
     background-color: #2b83ea;
+    }
+```
+
+### 6.Membuat Hero Panel
+![Menambahkan_Paragraf](pict/ss6.png) 
+Gambar di atas adalah hasil codingan yang dibawah yang telah ditambahkan Hero Panel.
+
+### Dibawah ini Adalah Codingan Dari Gambar Diatas:
+
+```css
+/* Hero Panel */
+#hero {
+    background-color: #e4e4e5;
+    padding: 50px 20px;
+    margin-bottom: 20px;
+    }
+    #hero h1 {
+    margin-bottom: 20px;
+    font-size: 35px;
+    }
+    #hero p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 25px;
     }
 ```
