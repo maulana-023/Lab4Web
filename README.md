@@ -63,6 +63,8 @@ Gambar di atas adalah hasil codingan yang dibawah.
 ![Menambahkan_Paragraf](pict/ss2.png) 
 Gambar di atas adalah hasil codingan yang dibawah yang telah ditambahkan element tag div dan juga css clear yang kemudian float nya di none.
 
+### Dibawah ini Adalah Codingan Dari Gambar Diatas:
+
 ```html
 <div class="div4">Div 4</div>
 ```
@@ -75,4 +77,45 @@ Gambar di atas adalah hasil codingan yang dibawah yang telah ditambahkan element
            float: none;
        }
 </style>
+```
+
+### 3.Membuat Kerangka Layout
+![Menambahkan_Paragraf](pict/ss3.png) 
+Gambar di atas adalah hasil codingan yang dibawah yang telah dibuat kerangka layout sederhana.
+
+### Dibawah ini Adalah Codingan Dari Gambar Diatas:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Sederhana</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>Layout Sederhana</h1>
+        </header>
+        <nav>
+            <a href="home.html" class="active">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="about.html">About</a>
+            <a href="kontak.html">Kontak</a>
+        </nav>
+        <section id="hero"></section>
+        <section id="wrapper">
+            <section id="main"></section>
+            <aside id="sidebar"></aside>
+        </section>
+        <footer>
+            <p>&copy; 2022 - Universitas Pelita Bangsa</p>
+        </footer>
+    </div>
+</body>
+</html>
 ```
