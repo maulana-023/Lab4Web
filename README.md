@@ -156,3 +156,27 @@ url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,30
     color: #b5b5b5;
     }
 ```
+
+### 5.Menambahkan css layout
+![Menambahkan_Paragraf](pict/ss5.png) 
+Gambar di atas adalah hasil codingan yang dibawah yang telah ditambahkan Navigasi di CSS.
+
+```css
+/* navigasi */
+nav {
+    display: block;
+    background-color: #1f5faa;
+    }
+    nav a {
+    padding: 15px 30px;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+    }
+    nav a.active,
+    nav a:hover {
+    background-color: #2b83ea;
+    }
+```
