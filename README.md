@@ -282,3 +282,17 @@ padding:15px;
 line-height:25px;
 }
 ```
+
+### 9.Mengatur Footer
+![Menambahkan_Paragraf](pict/ss8.png) 
+Gambar di atas adalah hasil codingan yang dibawah yang telah ditambahkan footer pada bagian css.
+
+```css
+/* footer */
+footer {
+    clear:both;
+    background-color:#1d1d1d;
+    padding:20px;
+    color:#eee;
+    }
+```
