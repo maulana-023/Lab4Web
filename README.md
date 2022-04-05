@@ -296,3 +296,77 @@ footer {
     color:#eee;
     }
 ```
+
+### 10.Menambahkan Elemen lainnya pada Main Content
+![Menambahkan_Paragraf](pict/ss9.png) 
+Gambar di atas adalah hasil codingan yang dibawah yang telah ditambahkan file html dan css pada main content.
+
+```html
+<div class="row">
+                    <div class="box">
+                        <img src="https://dummyimage.com/120/db7d25/fff.png" alt="" class="image-circle">
+                        <h3>Heading</h3>
+                        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis
+                            euismod.</p>
+                        <a href="#" class="btn btn-default">View detail</a>
+                    </div>
+                    <div class="box">
+                        <img src="https://dummyimage.com/120/3e73e6/fff.png" alt="" class="image-circle">
+                        <h3>Heading</h3>
+                        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis
+                            euismod.</p>
+                        <a href="#" class="btn btn-default">View detail</a>
+                    </div>
+                    <div class="box">
+                        <img src="https://dummyimage.com/120/71e6d4/fff.png" alt="" class="image-circle">
+                        <h3>Heading</h3>
+                        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis
+                            euismod.</p>
+                        <a href="#" class="btn btn-default">View detail</a>
+                    </div>
+                </div>
+```
+
+```css
+/* box */
+.box {
+    display:block;
+    float:left;
+    width:33.333333%;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    padding:0 10px;
+text-align:center;
+}
+.box h3 {
+margin: 15px 0;
+}
+.box p {
+line-height: 20px;
+font-size: 14px;
+margin-bottom: 15px;
+}
+box img {
+border: 0;
+vertical-align: middle;
+}
+.image-circle {
+border-radius: 50%;
+}
+.row {
+margin: 0 -10px;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+}
+.row:after, .row:before,
+.entry:after, .entry:before {
+content:'';
+display:table;
+}
+.row:after,
+.entry:after {
+clear:both;
+}
+```
